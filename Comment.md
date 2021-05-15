@@ -9,3 +9,13 @@ sbt
 ## Change remote git repository
 
 git remote set-url origin git@github.com:ziqew/scala3-example-project.git
+
+## Scala Test
+
+sbt test
+
+sbt test:testOnly HelloSpec
+
+sbt
+
+testOnly HelloSpec
